@@ -164,6 +164,16 @@ button > a {
 
 .right {
     width: 40%;
+    margin-top: 2rem;
+}
+
+.right_txt {
+    max-width: 20rem;
+    margin-right: 9rem;
+}
+
+.txt {
+    margin-top: 2rem;
 }
 
 .reverse {
