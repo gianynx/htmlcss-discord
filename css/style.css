@@ -154,10 +154,6 @@ button > a {
 
 /*CSS main*/
 
-.even {
-    background-color: var(--bg_section);
-}
-
 .left {
     width: 60%;
 }
@@ -174,6 +170,16 @@ button > a {
 
 .txt {
     margin-top: 2rem;
+}
+
+.wave {
+    height: 6.25rem;
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.04);
+}
+
+.even {
+    background-color: var(--bg_section);
 }
 
 .reverse {
