@@ -168,6 +168,10 @@ button > a {
     margin-right: 9rem;
 }
 
+.font_h2 {
+    font-size: 35px;
+}
+
 .txt {
     margin-top: 2rem;
 }
@@ -184,4 +188,9 @@ button > a {
 
 .reverse {
     flex-flow: row-reverse wrap;
+}
+
+.left_txt {
+    max-width: 20rem;
+    margin-left: 9rem;    
 }
