@@ -33,7 +33,7 @@ body {
 }
 
 .btn {
-    padding: 5px 15px;
+    padding: 12px 15px;
     border-radius: 25px;
     border-style: none;
 }
@@ -73,20 +73,20 @@ nav ul li:hover {
     text-decoration: underline;
 }
 
-.white_btn {
+#first_button {
     background-color: var(--primary_color);
-    color: var(--dark_test);
 }
 
 button > a {
     text-decoration: none;
+    color: var(--dark_test);
 }
 
-nav button a:hover {
+.hv:hover {
     color: var(--bg_header);
 }
 
-nav button:hover {
+.shadow:hover {
     box-shadow: 3px 3px 3px;
 }
 
@@ -131,6 +131,7 @@ nav button:hover {
 .button_white {
     background-color: var(--primary_color);
     color: var(--dark_test);
+    margin-right: 12px;
 }
 
 #down_arrow {
@@ -140,6 +141,13 @@ nav button:hover {
 
 .button_dark {
     background-color: var(--bg_footer);
+}
+
+.dis_dark:hover {
+    background-color: #36393f;
+}
+
+#a-btn {
     color: var(--primary_color);
 }
 
