@@ -90,6 +90,12 @@ nav button:hover {
     box-shadow: 3px 3px 3px;
 }
 
+.width_hero {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
