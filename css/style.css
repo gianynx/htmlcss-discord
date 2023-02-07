@@ -194,3 +194,7 @@ button > a {
     max-width: 20rem;
     margin-left: 9rem;    
 }
+
+#wave_rotate {
+    transform: rotate(180deg);
+}
