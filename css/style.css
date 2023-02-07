@@ -15,12 +15,6 @@
     --color_li_nav: #faf9fc;
 }
 
-/*CSS body*/
-
-.p_top_header {
-    padding-top: 20px;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -34,10 +28,6 @@
     align-content: flex-start;
 }
 
-.align_center {
-    align-items: center;
-}
-
 body {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -48,13 +38,23 @@ body {
     border-style: none;
 }
 
+.debug {
+    border: 2px solid black;
+}
+
+/*CSS header*/
+
+.p_top_header {
+    padding-top: 20px;
+}
+
+.align_center {
+    align-items: center;
+}
+
 .text_decoration {
     text-decoration: none;
     color: var(--color_li_nav);
-}
-
-.debug {
-    border: 2px solid black;
 }
 
 .list_style {
@@ -136,6 +136,8 @@ nav button:hover {
     background-color: var(--bg_footer);
     color: var(--primary_color);
 }
+
+/*CSS main*/
 
 .even {
     background-color: var(--bg_section);
