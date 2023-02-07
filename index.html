@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
@@ -109,20 +110,39 @@
     </main>
 
     <footer>
-        <nav class="footer_top container d_flex debug">
+        <nav class="footer_top container d_flex">
             <ul class="d_flex list_style">
-                <li>A</li>
+                <li class="li_footer">
+                    <h2 class="h2_footer font_h2">Il tuo posto per parlare</h2>
+                    <img class="ita" src="./img/ita.png" alt="icona_italia">
+                    <label for="languages"></label>
+                    <div class="select">
+                        <select id="language-select">
+                            <option value="italiano">Italiano</option>
+                            <option value="inglese">English</option>
+                            <option value="francese">Français</option>
+                            <option value="tedesco">Deutsch</option>
+                            <option value="spagnolo">Español</option>
+                        </select>
+                    </div>
+                    <div class="icons">
+                        <a class="icons" href="#"><i class="fa-brands fa-twitter brand_icon"></i></a>
+                        <a class="icons" href="#"><i class="fa-brands fa-instagram brand_icon"></i></a>
+                        <a class="icons" href="#"><i class="fa-brands fa-facebook brand_icon"></i></a>
+                        <a class="icons" href="#"><i class="fa-brands fa-youtube brand_icon"></i></a>
+                    </div>
+                </li>
             </ul>
-            <ul class="d_flex list_style">
+            <ul class="d_flex list_style debug">
                 <li>B</li>
             </ul>
-            <ul class="d_flex list_style">
+            <ul class="d_flex list_style debug">
                 <li>C</li>
             </ul>
-            <ul class="d_flex list_style">
+            <ul class="d_flex list_style debug">
                 <li>D</li>
             </ul>
-            <ul class="d_flex list_style">
+            <ul class="d_flex list_style debug">
                 <li>E</li>
             </ul>
         </nav>
