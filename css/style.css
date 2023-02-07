@@ -73,7 +73,7 @@ nav {
     padding-top: 2rem;
 }
 
-nav ul li:hover {
+.under:hover {
     text-decoration: underline;
 }
 
@@ -265,7 +265,7 @@ footer {
     height: 38rem;
 }
 
-.h2_footer {
+.h_footer {
     color: var(--color_footer);
 }
 
@@ -313,4 +313,8 @@ select {
 .brand_icon {
     width: 3.5rem;
     font-size: 30px;
+}
+
+.line {
+    line-height: 2.5rem;
 }
