@@ -1,0 +1,150 @@
+/* CSS general*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary_color: #ffffff;
+    --bg_footer: #23272a;
+    --bg_section: #f6f6f6;
+    --dark_test: #000000;
+    --bg_header: #255ee9;
+    --color_li_nav: #faf9fc;
+}
+
+/*CSS body*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d_flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.align_center {
+    align-content: center;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.btn {
+    padding: 5px 15px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.text_decoration {
+    text-decoration: none;
+    color: var(--color_li_nav);
+}
+
+.debug {
+    border: 2px solid black;
+}
+
+.list_style {
+    list-style: none;
+}
+
+header {
+    background-color: var(--bg_header);
+}
+
+nav {
+    padding-top: 2rem;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+.white_btn {
+    background-color: var(--primary_color);
+    color: var(--dark_test);
+}
+
+button > a {
+    text-decoration: none;
+}
+
+nav button a:hover {
+    color: var(--bg_header);
+}
+
+nav button:hover {
+    box-shadow: 3px 3px 3px;
+}
+
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 30rem;
+    background-position: top;
+}
+
+#hero h1 {
+    color: var(--primary_color);
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 45px;
+}
+
+#hero p {
+    margin-top: 7.5rem;
+    line-height: 40px;
+    text-align: center;
+    font-size: 21px;
+    color: var(--primary_color);
+}
+
+.button_hero {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.button_hero button {
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.button_white {
+    background-color: var(--primary_color);
+    color: var(--dark_test);
+}
+
+#down_arrow {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.button_dark {
+    background-color: var(--bg_footer);
+    color: var(--primary_color);
+}
+
+.even {
+    background-color: var(--bg_section);
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.reverse {
+    flex-flow: row-reverse wrap;
+}
