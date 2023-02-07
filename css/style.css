@@ -13,6 +13,7 @@
     --dark_test: #000000;
     --bg_header: #255ee9;
     --color_li_nav: #faf9fc;
+    --color_dark_btn: #36393f; 
 }
 
 .container {
@@ -144,7 +145,7 @@ button > a {
 }
 
 .dis_dark:hover {
-    background-color: #36393f;
+    background-color: var(--color_dark_btn);
 }
 
 #a-btn {
