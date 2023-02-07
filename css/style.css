@@ -17,6 +17,8 @@
     --color_blue_btn: #7289da;
     --color_b_btn_hover: #7983f5;
     --color_footer: #4463b5;
+    --color_border: #4a5782;
+    --color_btn_footer: #7289da;
 }
 
 .container {
@@ -262,7 +264,7 @@ button > a {
 
 footer {
     background-color: var(--bg_footer);
-    height: 38rem;
+    height: 45rem;
 }
 
 .h_footer {
@@ -317,4 +319,22 @@ select {
 
 .line {
     line-height: 2.5rem;
+}
+
+.b_top_f {
+    border-top: 2px solid var(--color_border);
+}
+
+.p_f {
+    padding: 1rem 0 3rem 0;
+}
+
+#btn_footer {
+    background-color: var(--color_btn_footer);
+}
+
+.f_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
