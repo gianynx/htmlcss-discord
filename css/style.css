@@ -11,9 +11,11 @@
     --bg_footer: #23272a;
     --bg_section: #f6f6f6;
     --dark_test: #000000;
+    --color_d_btn_hover: #36393f; 
     --bg_header: #255ee9;
     --color_li_nav: #faf9fc;
-    --color_dark_btn: #36393f; 
+    --color_blue_btn: #7289da;
+    --color_b_btn_hover: #7983f5;
 }
 
 .container {
@@ -145,7 +147,7 @@ button > a {
 }
 
 .dis_dark:hover {
-    background-color: var(--color_dark_btn);
+    background-color: var(--color_d_btn_hover);
 }
 
 #a-btn {
@@ -178,6 +180,7 @@ button > a {
 
 .txt {
     margin-top: 2rem;
+    line-height: 1.7rem;
 }
 
 .margin_b {
@@ -213,4 +216,43 @@ button > a {
 
 #wave_rotate {
     transform: rotate(180deg);
+}
+
+.center {
+    text-align: center;
+}
+
+.p_center {
+    text-align: center;
+    color: var(--dark_test);
+}
+
+#padding_b_four {
+    padding-bottom: 10rem;
+}
+
+#margin_t {
+    margin-top: 4rem;
+}
+
+.font_h2_stars {
+    font-size: 25px;
+}
+
+.button_blue {
+    margin-top: 3rem;
+    background-color: var(--color_blue_btn);
+    color: var(--primary_color);
+}
+
+.text_a {
+    font-size: 20px;
+}
+
+.dis_blue:hover {
+    background-color: var(--color_b_btn_hover);
+}
+
+.shadow_btn:hover {
+    box-shadow: 3px 3px 3px var(--dark_test);
 }
