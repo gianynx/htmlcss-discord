@@ -17,6 +17,10 @@
 
 /*CSS body*/
 
+.p_top_header {
+    padding-top: 20px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
